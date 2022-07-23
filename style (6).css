@@ -1,0 +1,144 @@
+body {
+    font-size:1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(/images/pattern-background-desktop.svg),hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  background: #fff;
+  margin:15px 20px;
+  border-radius: 12px;
+  z-index: 1000;
+}
+
+.card{
+ padding: 15px;
+ box-sizing: border-box;
+}
+
+header img{
+  width: 100%;
+ border-top-left-radius:10px;
+ border-top-right-radius:10px;
+}
+
+.card h2{
+  text-align: center;
+  padding:10px;
+  
+}
+
+.card p{
+text-align: center;
+font-size: 1rem;
+}
+
+
+.card .plan{
+  background:hsl(225, 100%, 98%);
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top:30px;
+  margin-bottom:20px;
+  padding:20px;
+  border-radius:8px;
+  display: flex;
+}
+
+.plan .sub{
+  display: flex;
+  margin-right: auto;
+  flex-direction: column;
+  padding-left: 10px;
+  margin-left:10px;
+  padding:3px;
+}
+
+.plan a{
+  color:hsl(245, 75%, 52%);
+  margin-top:7px;
+}
+
+.plan a:hover{
+  text-decoration:none;
+  color:hsl(223, 47%, 23%);
+}
+
+.card .cta{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:15px;
+}
+
+.cta button{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color:#fff;
+  background: hsl(245, 75%, 52%);
+  border-radius:15px;
+  box-shadow:10px 10px 10px hsl(224, 23%, 55%);
+  outline: none;
+  border:none;
+  width:100%;
+  padding:12px;
+  margin-bottom:25px;
+}
+
+.cta button:hover{
+  background:hsl(224, 23%, 55%);
+}
+
+.cta a{
+  font-size: 1.1rem;
+  font-weight:500;
+  text-decoration:none;
+  color:hsl(224, 23%, 55%);
+}
+
+.cta a:hover{
+ color:hsl(223, 47%, 23%);
+}
+
+ .attribution {
+   padding-top:22px;
+   font-size:1.5rem; 
+   text-align: center; 
+ }
+ 
+ .attribution a { 
+   color: hsl(228, 45%, 44%); 
+ }
+ 
+ 
+@media(max-width:700px){
+  
+  body{
+    background:hsl(225, 100%, 94%),url(/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+  }
+  
+  .card{
+    padding:17px;
+  }
+  
+  .card .plan{
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:28px;
+  margin-bottom:20px;
+  padding:20px;
+}
+}
