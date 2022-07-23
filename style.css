@@ -1,7 +1,7 @@
 body {
     font-size:1rem;
     font-family: 'Red Hat Display', sans-serif;
-    background: url(/images/pattern-background-desktop.svg),hsl(225, 100%, 94%);
+    background: url(pattern-background-desktop.svg),hsl(225, 100%, 94%);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -126,7 +126,7 @@ font-size: 1rem;
 @media(max-width:700px){
   
   body{
-    background:hsl(225, 100%, 94%),url(/images/pattern-background-mobile.svg);
+    background:hsl(225, 100%, 94%),url(pattern-background-mobile.svg);
     background-repeat: no-repeat;
   }
   
